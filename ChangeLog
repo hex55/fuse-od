@@ -1,3 +1,33 @@
+2020-11-26 Fuse 1.5.4 Miyoo v0.0.1
+    
+    * Initial release
+
+    * Remove options 
+        General GCW0 Options
+          Triple Buffer
+          Border
+          Show status bar with border
+          Show FPS instead of speed percentaje
+          GCW0 keyboard: Map LStick to DPad
+
+        Options/Joysticks/Joystick _2
+        Options/Joysticks/_Keyboard
+
+    * Status bar only show icon disk or cassete
+
+    * Correction of buttons, changed A by B and X by Y, the Reset button shows
+      the menu
+
+    * Change About's text and Hotkeys:
+        EXIT            (L + R)
+        OPEN_FILES      (R + A)
+        SAVE_FILES      (R + B)
+        FULLSCREEN      (L + A)
+        STATUS_BAR      (L + B)
+
+    * Filters are removed from the rendering of the screen and the option is included
+      full screen, when the border option does not work
+
 2020-11-01 Fuse 1.5.4 OpenDingux/RetroFW v0.0.4
 
     * This release is mainly to build for the beta OpenDingux firmware based on
