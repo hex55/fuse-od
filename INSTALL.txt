@@ -111,9 +111,16 @@ $ ./configure PKG_CONFIG_PATH="$HOME/src/libspectrum-install/lib/pkgconfig" \
 LIBSPECTRUM_CFLAGS="-I$HOME/src/libspectrum-install/include" \
 LIBSPECTRUM_LIBS="-L$HOME/src/libspectrum-install/lib -l:libspectrum.a -lbz2" \
 CC=arm-linux-gcc CXX=arm-linux-g++ \
---host=arm-linux --with-retrofw \
+--host=arm-linux --with-miyoo \
 --with-sdl-prefix=/opt/miyoo/arm-miyoo-linux-uclibcgnueabi/sysroot/usr
 
+For BOB version
+$ ./configure PKG_CONFIG_PATH="$HOME/src/libspectrum-install/lib/pkgconfig" \
+LIBSPECTRUM_CFLAGS="-I$HOME/src/libspectrum-install/include" \
+LIBSPECTRUM_LIBS="-L$HOME/src/libspectrum-install/lib -l:libspectrum.a -lbz2" \
+CC=arm-linux-gcc CXX=arm-linux-g++ \
+--host=arm-linux --with-bob \
+--with-sdl-prefix=/opt/miyoo/arm-miyoo-linux-uclibcgnueabi/sysroot/usr
 
 4.- Build Fuse
 
